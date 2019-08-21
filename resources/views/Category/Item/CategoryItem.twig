@@ -26,11 +26,10 @@
             <div class="row mt-3">
                 <div class="col-12">
 
-                {% set children = services.category.getChildren(category.id, lang) %}
-{% for childCategory in children if childCategory.type === "content" %}
-   <h1>{{ childCategory.details[0].name }}</h1>
-   {% include category_template( childCategory.id, lang, webstoreConfig.webstoreId ) ignore missing %}
-{% endfor %}
+                {% set children = services.category.getChildren(category.id) %}
+				{% for childCategory in children %}
+				   <h1>{{ childCategory.details[0].name }}</h1>
+				{% endfor %}
 
 
                     <h1 class="h2 category-title">Test: {{ category.details[0].name }}</h1>
