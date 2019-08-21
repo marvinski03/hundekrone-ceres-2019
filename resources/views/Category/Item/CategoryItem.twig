@@ -28,7 +28,13 @@
 
                 {% set children = services.category.getChildren(category.id) %}
 				{% for childCategory in children %}
-				   <h1>{{ childCategory.details[0].name }}</h1>
+					{% if childCategory.details[0].imagePath is not empty %}
+						<div class="kategorie-box" style="background:url(/documents/{{ childCategory.details[0].imagePath }};">
+							<div class="kategorie-box-title">
+								{{ childCategory.details[0].name }}
+							</div>
+						</div>
+					{% endif %}
 				{% endfor %}
 
 
