@@ -6,7 +6,7 @@
 
 {% block PageBody %}
 
-    {{ component( "Ceres::ItemList.Components.CategoryItem") }}
+    {{ component( "Hundekrone::ItemList.Components.CategoryItem") }}
     {{ component( "Ceres::ItemList.Components.Filter.ItemFilterList") }}
     {{ component( "Ceres::ItemList.Components.Filter.ItemFilterTagList") }}
 
@@ -24,16 +24,11 @@
             </div>
         {% endif %}
 
-        {% set children = services.category.getChildren(category.id, lang) %}
-		{% for childCategory in children if childCategory.type === "content" %}
-		   <h4>{{ childCategory.details[0].name }}</h4>
-		   {% include category_template( childCategory.id, lang, webstoreConfig.webstoreId ) ignore missing %}
-		{% endfor %}
 
         {% if category is defined and not ceresConfig.item.showCategoryImage %}
             <div class="row mt-3">
                 <div class="col-12">
-                    <h1 class="h2 category-title">{{ category.details[0].name }}</h1>
+                    <h1 class="h2 category-title">Test: {{ category.details[0].name }}</h1>
                     {% if ceresConfig.item.showCategoryDescriptionTop in ["description1", "both"] and category.details[0].description | trim is not empty %}
                         <div class="category-description mb-3">{{ category.details[0].description | raw }}</div>
                     {% endif %}
