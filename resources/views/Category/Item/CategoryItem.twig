@@ -30,12 +30,16 @@
 				{% for childCategory in children %}
 					{% if childCategory.details[0].imagePath is not empty %}
 						<div class="kategorie-box" style="background:url(/documents/{{ childCategory.details[0].imagePath }};">
-							<div class="kategorie-box-title">
-								{{ childCategory.details[0].name }}
+							<div class="kategorie-box-img">
+								<div class="kategorie-box-title">
+									{{ childCategory.details[0].name }}
+								</div>
 							</div>
 						</div>
 					{% endif %}
 				{% endfor %}
+
+				<div class="clear"></div>
 
 
                     <h1 class="h2 category-title">Test: {{ category.details[0].name }}</h1>
