@@ -1,0 +1,31 @@
+.kategorie-box {
+    width: 33.33%;
+    float: left;
+    padding: 5px;
+}
+
+.kategorie-box-img {
+    height: 0px;
+    padding-bottom: 50%;
+    background-size: cover !important;
+    background-position: center center !important;
+    position: relative;
+    border: 2px solid #83ba0f;
+    border-radius: 10px;
+}
+
+
+.kategorie-box-title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(131, 186, 15, 0.68);
+    font-size: 17px;
+    padding-left: 17px;
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
