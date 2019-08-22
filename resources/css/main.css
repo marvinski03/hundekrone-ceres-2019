@@ -104,7 +104,13 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 }
 
 .service-row {
-    margin: 18px 0px;
+    margin: 13px 0px;
+    border-bottom: 1px solid #80808047;
+    padding-bottom: 10px;
+}
+
+.service-row:nth-of-type(3){
+    border:none
 }
 
 .service-txt {
