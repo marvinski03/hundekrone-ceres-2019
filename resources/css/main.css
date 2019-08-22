@@ -47,6 +47,12 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
     cursor: pointer;
 }
 
+@media(max-width: 768px){
+    .kategorie-box{
+        width: 100%;
+    }
+}
+
 .kategorie-box-img {
     height: 0px;
     padding-bottom: 50%;
