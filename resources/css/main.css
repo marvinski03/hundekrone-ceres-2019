@@ -88,11 +88,11 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 .unser-service {
     margin-top: 25px;
     background: #f7f7f7;
-    padding: 20px;
+    padding: 18px;
 }
 
 .service-title {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
@@ -102,7 +102,7 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 
 .service-txt {
     line-height: 25px;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
 }
 
@@ -113,13 +113,13 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 }
 
 .service-call {
-    font-size: 21px;
+    font-size: 19px;
     padding-left: 40px;
     font-weight: bold;
     margin-top: -6px;
 }
 
 .service-ico i {
-    font-size: 24px;
+    font-size: 22px;
     color: #83ba0e;
 }
