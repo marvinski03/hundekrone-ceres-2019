@@ -22,7 +22,8 @@ header#page-header .navbar{
     padding: 10px 0px;
 }
 
-.category-description.mb-3, .category-description.mb-3 * {
+.category-description.mb-3, .category-description.mb-3 *,
+.tab-content *{
     line-height: 150% !important;
 }
 
