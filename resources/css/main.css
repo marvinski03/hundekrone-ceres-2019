@@ -13,7 +13,8 @@ body>#vue-error,
 header#page-header .navbar,
 #page-body,
 #page-body .page-content,
-.footer{
+.footer,
+body{
     background: white;
 }
 
