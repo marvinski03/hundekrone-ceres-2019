@@ -34,6 +34,11 @@
                 <div class="col-12">
 
                 {% set children = services.category.getChildren(category.id) %}
+
+                {% if children is not empty %}
+                    <div class="cat-boxes-wrapper">
+                {% endif %}
+
 				{% for childCategory in children %}
 					{% if childCategory.details[0].imagePath is not empty %}
 
@@ -49,9 +54,13 @@
 							</div>
 						</a>
 					{% endif %}
+
 				{% endfor %}
 
-				<div class="clear"></div>
+                {% if children is not empty %}
+                    <div class="clear"></div>
+                    </div>
+                {% endif %}
 
 
                     <h1 class="h2 category-title">Test: {{ category.details[0].name }}</h1>
