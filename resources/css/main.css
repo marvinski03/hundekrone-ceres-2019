@@ -21,6 +21,10 @@ header#page-header .navbar{
     padding: 10px 0px;
 }
 
+.category-description.mb-3, .category-description.mb-3 * {
+    line-height: 150% !important;
+}
+
 
 /** MENU COLOR **/
 
@@ -139,6 +143,10 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 }
 
 /** FOOTER **/
+
+.footer {
+    margin-top: 110px;
+}
 
 .static-link-list ul li {
     list-style: none;
