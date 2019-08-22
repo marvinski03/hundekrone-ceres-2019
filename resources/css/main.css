@@ -25,6 +25,12 @@ header#page-header .navbar{
     line-height: 150% !important;
 }
 
+div#page-body {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 35px 0px 0px 0px;
+}
+
 
 /** MENU COLOR **/
 
