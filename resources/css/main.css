@@ -168,3 +168,22 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 .static-link-list {
     margin-bottom: 25px !important;
 }
+
+.footer .footer-features i {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.footer-row-txt {
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.footer .footer-features {
+    background-color: #f7f7f7;
+}
+
+
+.footer ul {
+    padding: 0px !important;
+}
