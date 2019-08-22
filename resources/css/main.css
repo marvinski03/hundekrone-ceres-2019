@@ -1,3 +1,18 @@
+/** MENU COLOR **/
+
+ul.mainmenu *,
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-dropdown-inner .level1>a{
+    color: #4d4f4d;
+}
+
+nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-dropdown-inner .level1>a:hover{
+    color: #83ba0f;
+}
+
+
+
+/** KATEGORIE BOXEN **/
+
 .kategorie-box {
     width: 33.33%;
     float: left;
