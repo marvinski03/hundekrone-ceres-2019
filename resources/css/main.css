@@ -4,6 +4,19 @@
     clear: both !important;
 }
 
+body>#vue-app,
+body>#vue-error,
+header#page-header .navbar,
+#page-body,
+#page-body .page-content,
+.footer{
+    background: white;
+}
+
+header#page-header .navbar{
+    padding: 10px 0px;
+}
+
 
 /** MENU COLOR **/
 
