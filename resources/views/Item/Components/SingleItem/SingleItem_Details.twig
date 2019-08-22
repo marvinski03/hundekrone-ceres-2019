@@ -118,10 +118,7 @@
     <a {% if ceresConfig.global.shippingCostsCategoryId > 0 %} data-toggle="modal" href="#shippingscosts"{% endif %} title="{{ trans("Ceres::Template.singleItemShippingCosts") }}">{{ trans("Ceres::Template.singleItemShippingCosts") }}</a>
                     </span>
 
-
-<slot name="additional-content-after-vat"></slot>
-
-<br><hr>
+                    <br><hr>
 
 <div class="unser-service">
 	<div class="service-row">
@@ -162,4 +159,4 @@
 </div>
 
 
-
+<slot name="additional-content-after-vat"></slot>
