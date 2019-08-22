@@ -1,3 +1,10 @@
+/** ALLGEMEIN **/
+
+.clear {
+    clear: both !important;
+}
+
+
 /** MENU COLOR **/
 
 ul.mainmenu *,
@@ -8,7 +15,6 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-dropdown-inner .level1>a:hover{
     color: #83ba0f;
 }
-
 
 
 /** KATEGORIE BOXEN **/
