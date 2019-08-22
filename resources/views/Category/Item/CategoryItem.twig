@@ -30,9 +30,8 @@
 				{% for childCategory in children %}
 					{% if childCategory.details[0].imagePath is not empty %}
 
-                        {% set categoryURL = services.url.getCategoryURL(childCategory.id, "de").toAbsoluteUrl(true) %}
 
-						<a href="{{ categoryURL }}" a="b" title="{{ childCategory.details[0].name }}" class="kategorie-box-link">
+						<a href="#reset" title="{{ childCategory.details[0].name }}" class="kategorie-box-link">
 							<div class="kategorie-box">
 								<div class="kategorie-box-img" style="background:url(/documents/{{ childCategory.details[0].imagePath }};">
 									<div class="kategorie-box-title">
