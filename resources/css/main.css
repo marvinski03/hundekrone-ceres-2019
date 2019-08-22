@@ -4,6 +4,10 @@
     clear: both !important;
 }
 
+.breadcrumb a {
+    color: black;
+}
+
 body>#vue-app,
 body>#vue-error,
 header#page-header .navbar,
