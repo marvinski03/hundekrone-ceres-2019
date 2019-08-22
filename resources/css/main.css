@@ -19,6 +19,10 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 
 /** KATEGORIE BOXEN **/
 
+.cat-boxes-wrapper {
+    margin-bottom: 50px;
+}
+
 .kategorie-box {
     width: 33.33%;
     float: left;
