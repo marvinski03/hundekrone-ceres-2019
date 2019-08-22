@@ -137,3 +137,19 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
     font-size: 22px;
     color: #83ba0e;
 }
+
+/** FOOTER **/
+
+.static-link-list ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.static-link-list ul li a:hover{
+    text-decoration: underline;
+}
+
+.static-link-list {
+    margin-bottom: 25px !important;
+}
