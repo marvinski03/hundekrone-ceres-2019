@@ -12,11 +12,16 @@ p.h3 {
     margin: 20px 0px 40px 0px;
 }
 
+.vorstellungstext {
+    height: 452px;
+    overflow: scroll;
+    border: 1px solid #a6a7a6;
+}
+
 .vorstellungstext * {
     line-height: 140%;
     font-size: 14px;
 }
-
 
 .vorstellungstext h1,
 .vorstellungstext h2,
