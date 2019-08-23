@@ -13,9 +13,16 @@ p.h3 {
 }
 
 .vorstellungstext {
-    height: 452px;
+    height: 444px;
     overflow: scroll;
     border: 1px solid #a6a7a6;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.vorstellungstext > div {
+    padding-top: 0px !important;
+    margin-top: 0px;
 }
 
 .vorstellungstext * {
