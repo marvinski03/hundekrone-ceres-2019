@@ -8,6 +8,10 @@
     color: black;
 }
 
+p.h3 {
+    margin: 20px 0px 40px 0px;
+}
+
 body>#vue-app,
 body>#vue-error,
 header#page-header .navbar,
