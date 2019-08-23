@@ -74,6 +74,14 @@ div#page-body {
     padding: 35px 0px 0px 0px;
 }
 
+.widget-inner.bg-appearance, .widget-inner.bg-appearance * {
+    background: none !important;
+    color: Black;
+    text-align: left !important;
+    padding-left: 0px;
+    font-weight: bold;
+}
+
 
 /** MENU COLOR **/
 
