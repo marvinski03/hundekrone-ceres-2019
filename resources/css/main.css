@@ -80,6 +80,7 @@ div#page-body {
     text-align: left !important;
     padding-left: 0px;
     font-weight: bold;
+    padding-bottom: 0px !important;
 }
 
 
