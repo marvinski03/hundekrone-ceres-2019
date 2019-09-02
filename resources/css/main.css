@@ -251,6 +251,10 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
     width: 40px;
 }
 
+.widget-image-carousel.widget-primary .carousel-item h2 {
+    display: none !important;
+}
+
 
 .widget-image-carousel .widget-inner .carousel-control .fa {
     color: black;
