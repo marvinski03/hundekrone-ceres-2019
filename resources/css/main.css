@@ -245,6 +245,18 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
     padding: 0px !important;
 }
 
+/** FRONT **/
+
+.carousel-control-next, .carousel-control-prev {
+    width: 40px;
+}
+
+
+.widget-image-carousel .widget-inner .carousel-control .fa {
+    color: black;
+    font-size: 17px;
+}
+
 /** INSTAGRAM **/
 
 div#instafeed {
