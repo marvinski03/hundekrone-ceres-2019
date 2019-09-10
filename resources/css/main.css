@@ -293,7 +293,11 @@ h3.insta {
     margin-bottom: 10px;
 }
 
+/** CHECKOUT **/
 
+.page-checkout div#amzPayButton_0 {
+    margin-bottom: 50px;
+}
 
 
 
