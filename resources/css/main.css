@@ -264,12 +264,11 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 /** INSTAGRAM **/
 
 div#instafeed {
-    max-width: 800px;
-    margin: 0 auto;
+    margin-top: 15px;
 }
 
 div#instafeed a {
-    width: 25%;
+    width: 20%;
     display: block;
     float: left;
     padding: 10px;
