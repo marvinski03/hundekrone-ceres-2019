@@ -300,4 +300,17 @@ h3.insta {
 }
 
 
+/** PAYMENT BOXES **/
+
+.basket-preview-footer.row {
+    padding-bottom: 10px;
+}
+
+#amzPayButton_0, #ppButton, 
+#amzPayButton_0 img, #ppButton img {
+    width: 134px !important;
+}
+
+
+
 
