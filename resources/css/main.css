@@ -311,6 +311,16 @@ h3.insta {
     width: 134px !important;
 }
 
+#add-item-to-basket-overlay #amzPayButton_1, #add-item-to-basket-overlay #ppButton{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 134px !important;
+    height: auto !important;
+}
+
+#add-item-to-basket-overlay #amzPayButton_1, #add-item-to-basket-overlay #ppButton, #add-item-to-basket-overlay #amzPayButton_1 *, #add-item-to-basket-overlay #ppButton * {
+    height: auto !important;
+}
 
 
 
