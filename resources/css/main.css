@@ -224,8 +224,12 @@ form#newsletter-input-form_11:after {
     margin-top: 110px;
 }
 
-body.page-home .hide-front {
+.hide-front {
     display: none !important;
+}
+
+.page-category .hide-front{
+    display: block !important;
 }
 
 .static-link-list ul li {
