@@ -101,6 +101,10 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
     color: #83ba0f;
 }
 
+ul.nav-dropdown-inner .level2 a {
+    color: #9a9a9a !important;
+}
+
 
 /** NEWSLETTER **/
 
