@@ -109,7 +109,7 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 }
 
 .kategorie-box {
-    width: 33.33%;
+    width: 25%;
     float: left;
     padding: 5px;
     cursor: pointer;
@@ -123,7 +123,7 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
 
 .kategorie-box-img {
     height: 0px;
-    padding-bottom: 50%;
+    padding-bottom: 41%;
     background-size: cover !important;
     background-position: center center !important;
     position: relative;
@@ -306,8 +306,8 @@ h3.insta {
     padding-bottom: 10px;
 }
 
-#amzPayButton_0, #ppButton, 
-#amzPayButton_0 img, #ppButton img {
+#amzPayButton_1, #amzPayButton_0, #ppButton, 
+#amzPayButton_1 img, #amzPayButton_0 img, #ppButton img {
     width: 134px !important;
 }
 
