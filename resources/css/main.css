@@ -172,6 +172,11 @@ body.page-home .vorstellungstext .widget-inner.bg-appearance h6 {
     }
 }
 
+body.page-category .list-controls.mb-5 {
+    margin-bottom: 20px !important;
+}
+
+
 .kategorie-box-img {
     height: 0px;
     padding-bottom: 41%;
