@@ -118,6 +118,13 @@ form#newsletter-input-form_11:after {
 }
 
 
+/** FINDOLOGIC **/
+
+.fl-autocomplete .ui-menu-item .fl-ac-highlight {
+    color: black !important;
+}
+
+
 /** KATEGORIE BOXEN **/
 
 .cat-boxes-wrapper {
