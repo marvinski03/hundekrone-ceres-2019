@@ -8,19 +8,22 @@
     <div>
         <slot name="default" :getDataField="getDataField" :getFilteredDataField="getFilteredDataField">
             <div class="single container-max page-content">
-                <div class="row mt-5 position-relative">
+                <div class="row position-relative">
 
-                    <div class="col-12 col-md-6" id="item-container">
+                    <div class="col-12 col-md-5" id="item-container">
                         <slot name="image-carousel"></slot>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-2" id="placeholder">
+                    </div>
+
+                    <div class="col-12 col-md-5">
                         <div v-stick-in-parent data-sticky-container="#item-container">
                             {% include "Hundekrone::Item.Components.SingleItem.SingleItem_Details" %}
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-7">
                         {% include "Ceres::Item.Components.SingleItem.SingleItem_InformationTable" %}
                     </div>
 
