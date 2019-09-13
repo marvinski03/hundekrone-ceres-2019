@@ -320,6 +320,12 @@ body.page-home .vorstellungstext .widget-inner.bg-appearance h6 {
     font-size: 17px;
 }
 
+@media (min-width: 1200px){
+    .single-carousel .owl-item img {
+        height: 550px;
+    }
+}
+
 /** INSTAGRAM **/
 
 div#instafeed {
