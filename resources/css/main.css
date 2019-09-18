@@ -406,9 +406,39 @@ h3.insta {
     }
 }
 
+div#searchBox * {
+    max-width: 130px !important;
+}
+
+.search-box-shadow-frame {
+    box-shadow: none !important;
+    border-bottom: 1px solid black !important;
+}
+.cmp-search-box .search-submit {
+    background: none !important;
+    color: black;
+    position: absolute;
+    right: 0px;
+    width: 30px;
+}
+
+
+#mainNavbarCollapsable ul.mainmenu{
+    float: right !important;
+}
+
 div#searchBox {
     display: inline-block !important;
     background: none !important;
-    width: 120px !important;
+    width: 130px !important;
     position: inherit !important;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    float: right;
 }
+
+
+
+
+

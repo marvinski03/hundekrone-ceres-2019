@@ -21,12 +21,9 @@
             </div>
 
             <div id="mainNavbarCollapsable" class="d-none d-lg-block">
-                {% if showHeaderNavBar == "top" or showHeaderNavBar == "both" or not services.template.isCategory() %}
-                    {% include "Ceres::PageDesign.Partials.Header.NavigationList" %}
-                {% endif %}
 
 
-                <div id="searchBox" class="cmp cmp-search-box collapse">
+            	<div id="searchBox" class="cmp cmp-search-box collapse">
 		            {% set overrideSearchBar = LayoutContainer.show("Ceres::Search.SearchBar") %}
 		            {% if overrideSearchBar | trim is empty %}
 		                <item-search template="#vue-item-search"></item-search>
@@ -34,6 +31,13 @@
 		                {{ overrideSearchBar | raw }}
 		            {% endif %}
 		        </div>
+
+                {% if showHeaderNavBar == "top" or showHeaderNavBar == "both" or not services.template.isCategory() %}
+                    {% include "Ceres::PageDesign.Partials.Header.NavigationList" %}
+                {% endif %}
+
+
+
             </div>
 
         </div>
