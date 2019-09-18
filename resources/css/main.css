@@ -1,5 +1,10 @@
 /** ALLGEMEIN **/
 
+
+.ui-tooltip {
+    display: none !important;
+}
+
 .clear {
     clear: both !important;
 }
