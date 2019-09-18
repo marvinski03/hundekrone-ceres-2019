@@ -400,7 +400,7 @@ h3.insta {
     li.list-inline-item.control-search {
         display: none !important;
     }
-    
+
 
 @media (min-width: 992px){
     #mainNavbarCollapsable ul.mainmenu>li>a {
@@ -467,6 +467,10 @@ h3.insta {
         -ms-flex-pack: end;
         justify-content: flex-end;
         float: right;
+    }
+
+    a.anicon.anicon-search-xcross{
+        display: none;
     }
 
 }
