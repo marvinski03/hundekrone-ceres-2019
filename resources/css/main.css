@@ -2,7 +2,7 @@
 
 
 .ui-tooltip {
-    display: none !important;
+    opacity: 0 !important;
 }
 
 .clear {
