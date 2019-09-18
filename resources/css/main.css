@@ -404,6 +404,26 @@ h3.insta {
     #mainNavbarCollapsable ul.mainmenu>li>a {
         padding: 1.3rem 0.7rem;
     }
+
+    .fl-autocomplete.ui-autocomplete {
+        min-width: 800px !important;
+        transform: translateX(-20%);
+    }
+
+
+}
+
+.fl-item-even {
+    background: white !important;
+}
+
+.fl-item-odd {
+    background: #ececec !important;
+}
+
+.ui-autocomplete h3 {
+    color: #83ba0f;
+    font-weight: bold;
 }
 
 div#searchBox{
