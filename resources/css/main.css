@@ -470,7 +470,7 @@ h3.insta {
     }
 
     a.anicon.anicon-search-xcross{
-        display: none;
+        display: none !important;
     }
 
 }
