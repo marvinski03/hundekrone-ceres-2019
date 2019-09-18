@@ -410,69 +410,67 @@ h3.insta {
         transform: translateX(-20%);
     }
 
+    li.list-inline-item.control-search {
+        display: none !important;
+    }
+
+    .fl-item-even {
+        background: white !important;
+    }
+
+    .fl-item-odd {
+        background: #ececec !important;
+    }
+
+    .ui-autocomplete h3 {
+        color: #83ba0f;
+        font-weight: bold;
+    }
+
+    div#searchBox{
+        margin-left: 20px;
+    }
+
+    div#searchBox * {
+        max-width: 130px !important;
+    }
+
+    .search-box-shadow-frame {
+        box-shadow: none !important;
+        border-bottom: 1px solid black !important;
+        margin-top: 6px;
+    }
+
+    .cmp-search-box .search-submit {
+        background: none !important;
+        color: black;
+        position: absolute;
+        right: 0px;
+        width: 30px;
+    }
+
+    input.search-input.ui-autocomplete-input {
+        font-size: 14px !important;
+        padding: 7px 0px !important;
+    }
+
+
+    #mainNavbarCollapsable ul.mainmenu{
+        float: right !important;
+    }
+
+    div#searchBox {
+        display: inline-block !important;
+        background: none !important;
+        width: 130px !important;
+        position: inherit !important;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        float: right;
+    }
 
 }
-
-li.list-inline-item.control-search {
-    display: none !important;
-}
-
-.fl-item-even {
-    background: white !important;
-}
-
-.fl-item-odd {
-    background: #ececec !important;
-}
-
-.ui-autocomplete h3 {
-    color: #83ba0f;
-    font-weight: bold;
-}
-
-div#searchBox{
-    margin-left: 20px;
-}
-
-div#searchBox * {
-    max-width: 130px !important;
-}
-
-.search-box-shadow-frame {
-    box-shadow: none !important;
-    border-bottom: 1px solid black !important;
-    margin-top: 6px;
-}
-.cmp-search-box .search-submit {
-    background: none !important;
-    color: black;
-    position: absolute;
-    right: 0px;
-    width: 30px;
-}
-
-input.search-input.ui-autocomplete-input {
-    font-size: 14px !important;
-    padding: 7px 0px !important;
-}
-
-
-#mainNavbarCollapsable ul.mainmenu{
-    float: right !important;
-}
-
-div#searchBox {
-    display: inline-block !important;
-    background: none !important;
-    width: 130px !important;
-    position: inherit !important;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    float: right;
-}
-
-
 
 
 
