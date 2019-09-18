@@ -6,7 +6,7 @@
 
 
 {% if urls.includeLanguage %}
-        {% set urlLanguageCode = "/" ~ category.details[0].lang %}
+        {% set urlLanguageCode = category.details[0].lang %}
     {% else %}
         {% set urlLanguageCode = "" %}
     {% endif %}
@@ -44,7 +44,11 @@
 
                         {% set completeUrl = urlLanguageCode ~ request.getRequestUri() ~ "/" ~ childCategory.details[0].nameUrl %}
 
-                        {{ completeUrl|replace({ ('//'): '/' }) }}
+                        {% set twig_content_variable= 'Testing to replace content'%}
+                        {% set replace_value_var= '//' %}
+                        {% set replace_with_value_var = '/' %} 
+
+                        {{ completeUrl|replace({ (replace_value_var): replace_with_value_var }) }}
 
 						<a href="{{ completeUrl }}" title="{{ childCategory.details[0].name }}" class="kategorie-box-link">
 							<div class="kategorie-box">
