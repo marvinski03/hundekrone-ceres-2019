@@ -42,7 +42,9 @@
 				{% for childCategory in children %}
 					{% if childCategory.details[0].imagePath is not empty %}
 
-                        {% set completeUrl = urlLanguageCode ~ request.getRequestUri() ~ childCategory.details[0].nameUrl %}
+                        {% set completeUrl = urlLanguageCode ~ request.getRequestUri() ~ "/" ~ childCategory.details[0].nameUrl %}
+
+                        {{ completeUrl|replace({ ('//'): '/' }) }}
 
 						<a href="{{ completeUrl }}" title="{{ childCategory.details[0].name }}" class="kategorie-box-link">
 							<div class="kategorie-box">
