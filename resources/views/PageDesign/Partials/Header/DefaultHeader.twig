@@ -8,9 +8,7 @@
 
                 <ul id="controlsList" class="controls-list list-inline">
 
-                CUSTOM HEADER
 
-                
                     <li class="list-inline-item control-user">
                         <user-login-handler>
                             <a data-toggle="modal">
@@ -85,7 +83,7 @@
                 </ul>
             </div>
         </div>
-        {% include "Ceres::PageDesign.Partials.Header.Navigation" %}
+        {% include "Hundekrone::PageDesign.Partials.Header.Navigation" %}
     </div>
 </header>
 
@@ -96,14 +94,6 @@
 
 <div class="container-max page-header">
     <div class="row mx-0">
-        <div id="searchBox" class="cmp cmp-search-box collapse">
-            {% set overrideSearchBar = LayoutContainer.show("Ceres::Search.SearchBar") %}
-            {% if overrideSearchBar | trim is empty %}
-                <item-search template="#vue-item-search"></item-search>
-            {% else %}
-                {{ overrideSearchBar | raw }}
-            {% endif %}
-        </div>
 
         {% if enableCurrencySelect == "true" %}
             <div id="currencySelect" class="cmp cmp-currency-select collapse">
