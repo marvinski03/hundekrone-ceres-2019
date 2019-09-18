@@ -398,3 +398,10 @@ h3.insta {
 
 
 
+/** NEW FEATURE: SEARCH BOX **/
+
+@media (min-width: 992px){
+    #mainNavbarCollapsable ul.mainmenu>li>a {
+        padding: 1.3rem 0.7rem;
+    }
+}
