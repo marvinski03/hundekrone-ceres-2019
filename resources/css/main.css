@@ -396,6 +396,12 @@ h3.insta {
 
 /** NEW FEATURE: SEARCH BOX **/
 
+
+    li.list-inline-item.control-search {
+        display: none !important;
+    }
+    
+
 @media (min-width: 992px){
     #mainNavbarCollapsable ul.mainmenu>li>a {
         padding: 1.3rem 0.7rem;
@@ -406,9 +412,6 @@ h3.insta {
         transform: translateX(-20%);
     }
 
-    li.list-inline-item.control-search {
-        display: none !important;
-    }
 
     .fl-item-even {
         background: white !important;
@@ -466,4 +469,13 @@ h3.insta {
         float: right;
     }
 
+}
+
+
+a.anicon.anicon-search-xcross {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    top: 21px;
+    right: 30px;
 }
