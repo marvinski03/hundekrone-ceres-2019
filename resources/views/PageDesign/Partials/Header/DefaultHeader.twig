@@ -7,8 +7,6 @@
                 {{ LayoutContainer.show("Ceres::Header.LeftSide") }}
 
                 <ul id="controlsList" class="controls-list list-inline">
-
-
                     <li class="list-inline-item control-user">
                         <user-login-handler>
                             <a data-toggle="modal">
@@ -98,7 +96,7 @@
         {% if enableCurrencySelect == "true" %}
             <div id="currencySelect" class="cmp cmp-currency-select collapse">
                 <div class="container-max">
-                    <div class="row p-3">
+                    <div class="row py-3">
 
                         <div class="currency-list col-12">
                             <div class="list-title">
@@ -130,7 +128,7 @@
                 :shipping-country-id="{{ services.checkout.getShippingCountryId }}">
             <div id="countrySettings" class="cmp cmp-country-settings collapse">
                 <div class="container-max">
-                    <div class="row p-3">
+                    <div class="row py-3">
                         <div class="col-12 col-lg-6">
 
                             <div class="language-settings">
