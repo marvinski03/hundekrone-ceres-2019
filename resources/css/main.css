@@ -405,3 +405,11 @@ h3.insta {
         padding: 1.3rem 0.7rem;
     }
 }
+
+div#searchBox {
+    display: inline-block !important;
+    background: none !important;
+    width: 120px !important;
+    position: inherit !important;
+}
+
