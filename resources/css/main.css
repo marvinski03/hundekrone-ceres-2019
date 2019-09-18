@@ -406,6 +406,10 @@ h3.insta {
     }
 }
 
+div#searchBox{
+    margin-left: 20px;
+}
+
 div#searchBox * {
     max-width: 130px !important;
 }
@@ -413,6 +417,7 @@ div#searchBox * {
 .search-box-shadow-frame {
     box-shadow: none !important;
     border-bottom: 1px solid black !important;
+    margin-top: 6px;
 }
 .cmp-search-box .search-submit {
     background: none !important;
@@ -420,6 +425,11 @@ div#searchBox * {
     position: absolute;
     right: 0px;
     width: 30px;
+}
+
+input.search-input.ui-autocomplete-input {
+    font-size: 14px !important;
+    padding: 7px 0px !important;
 }
 
 
