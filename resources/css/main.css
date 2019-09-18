@@ -413,6 +413,10 @@ h3.insta {
 
 }
 
+li.list-inline-item.control-search {
+    display: none !important;
+}
+
 .fl-item-even {
     background: white !important;
 }
