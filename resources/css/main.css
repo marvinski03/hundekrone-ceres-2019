@@ -486,3 +486,33 @@ a.anicon.anicon-search-xcross {
     top: 21px;
     right: 30px;
 }
+
+
+/** USPS IN TOP BAR **/
+
+.wrapper-main header .container-max>.row {
+    -webkit-box-direction: inherit !important;
+    -ms-flex-direction: inherit !important;
+    flex-direction: inherit !important;
+    justify-content: space-between;
+}
+
+ul.hundekrone-usps {
+    display: flex;
+    margin: 0px !important;
+    padding: 0px !important;
+    list-style: none !important;
+}
+
+ul.hundekrone-usps li {
+    margin-right: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+@media(max-width: 1080px){
+    ul.hundekrone-usps li{
+        display: none !important;
+    }
+}
+
