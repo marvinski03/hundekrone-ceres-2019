@@ -12,6 +12,10 @@
     color: black;
 }
 
+div#page-body {
+    min-height: 100vh;
+}
+
 p.h3 {
     margin: 20px 0px 40px 0px;
 }
@@ -502,6 +506,10 @@ ul.hundekrone-usps {
     margin: 0px !important;
     padding: 0px !important;
     list-style: none !important;
+}
+
+ul.hundekrone-usps * {
+    color: #dcdbd8;
 }
 
 ul.hundekrone-usps li {
