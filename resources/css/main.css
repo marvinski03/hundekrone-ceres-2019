@@ -163,6 +163,20 @@ body.page-home .vorstellungstext .widget-inner.bg-appearance h6 {
     text-transform: none !important;
 }
 
+.vorstellungstext h2,
+.vorstellungstext h2 *,
+.vorstellungstext h3,
+.vorstellungstext h3 *,
+.vorstellungstext a,
+.vorstellungstext a * {
+    color: #84ba0a !important;
+}
+
+.vorstellungstext a,
+.vorstellungstext a *{
+    text-decoration: underline;
+}
+
 /** FINDOLOGIC **/
 
 .fl-autocomplete .ui-menu-item .fl-ac-highlight {
