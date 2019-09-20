@@ -83,6 +83,14 @@ header#page-header .navbar{
     line-height: 150% !important;
 }
 
+.add-to-basket-lg-container {
+    display: none;
+}
+
+.page-category-item .category-unit-price {
+    display: none;
+}
+
 div#page-body {
     max-width: 1170px;
     margin: 0 auto;
