@@ -163,10 +163,6 @@ body.page-home .vorstellungstext .widget-inner.bg-appearance h6 {
     text-transform: none !important;
 }
 
-.vorstellungstext h2,
-.vorstellungstext h2 *,
-.vorstellungstext h3,
-.vorstellungstext h3 *,
 .vorstellungstext a,
 .vorstellungstext a * {
     color: #84ba0a !important;
@@ -243,9 +239,84 @@ body.page-category .list-controls.mb-5 {
     transform: scale(1.02);
 }
 
+.pe-richsnippets {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 /** STICKY SIDEBAR **/
 
+
+div#sticky-sidebar {
+    position: fixed;
+    right: 0px;
+    top: 25%;
+    z-index: 99;
+    border: 1px solid #dedede;
+}
+
+.sticky-sidebar-element {
+    display: block;
+    /* margin-bottom: 2px !important; */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+    background: white;
+}
+
+#sticky-sidebar a:last-of-type .sticky-sidebar-element {
+    margin-bottom: 0px !important;
+}
+
+.sticky-sidebar-element.gutschein {
+    background: #f58498;
+    color: white;
+}
+
+span.gutschein-sm {
+    line-height: 100%;
+    position: relative;
+    top: -8px;
+    display: inline-block;
+}
+
+span.gutschein-big {
+    font-size: 33px;
+    display: inline-block;
+    margin-top: 2px !important;
+}
+
+.sticky-sidebar-element.hilfe-kontakt {
+    font-size: 10px;
+    color: #8a8a8a;
+}
+
+.hilfe-kontakt .sse-content {
+    padding-top: 13px;
+}
+
+.sticky-sidebar-element.hilfe-kontakt i {
+    font-size: 28px;
+    color: #9dc2d2;
+    border: 3px solid #9dc2d2;
+    border-radius: 100%;
+    width: 38px;
+    height: 38px;
+    margin: 0 auto;
+    display: block;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+@media(max-width: 1820px){
+    #sticky-sidebar{
+        display: none;
+    }
+}
 
 
 
