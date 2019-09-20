@@ -312,7 +312,7 @@ span.gutschein-big {
     margin-bottom: 4px;
 }
 
-@media(max-width: 1820px){
+@media(max-width: 1280px){
     #sticky-sidebar{
         display: none;
     }
