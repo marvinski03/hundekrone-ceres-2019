@@ -1,5 +1,8 @@
+
 <div class="producertag h6 producer text-muted" v-if="currentVariation.filter.hasManufacturer">
-    ${ currentVariation.item.manufacturer.externalName }
+    <a href="https://www.hundekrone.de/marken/${ currentVariation.item.manufacturer.externalName|url_encode }" try="${ currentVariation.item.manufacturer.externalName|url_encode }">
+        ${ currentVariation.item.manufacturer.externalName }
+    </a>
 </div>
 
 <h1 class="h2 title">
