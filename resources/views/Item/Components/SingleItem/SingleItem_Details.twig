@@ -2,7 +2,7 @@
 
 
 <div class="producertag h6 producer text-muted" v-if="currentVariation.filter.hasManufacturer">
-    <a href="https://www.hundekrone.de/marken/{{ manufacturerurl|url_encode }}" trys="{{ manufacturerurl }}">
+    <a href="https://www.hundekrone.de/marken/{{ manufacturerurl|url_encode }}" trys="{{ currentVariation.item.manufacturer.externalName }}">
         ${ currentVariation.item.manufacturer.externalName }
     </a>
 </div>
