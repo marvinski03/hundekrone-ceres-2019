@@ -1,8 +1,8 @@
-{% set manufacturerurl = item.manufacturer.externalName %}
+{% set manufacturerurl = currentVariation.item.manufacturer.externalName %}
 
 
 <div class="producertag h6 producer text-muted" v-if="currentVariation.filter.hasManufacturer">
-    <a href="{{ itemData.item.manufacturer.externalName|url_encode }}" :trxyxo="currentVariation.item.manufacturer.externalName">
+    <a href="{{ manufacturerurl|url_encode }}" :tdfd="currentVariation.item.manufacturer.externalName">
         ${ currentVariation.item.manufacturer.externalName }
     </a>
 </div>
