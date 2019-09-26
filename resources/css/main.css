@@ -645,6 +645,11 @@ img.hundekrone-category-header {
     margin-top: 5px;
 }
 
+.category-description.btm {
+    border-top: 1px solid #b1b1b1;
+    padding-top: 20px;
+}
+
 
 
 
