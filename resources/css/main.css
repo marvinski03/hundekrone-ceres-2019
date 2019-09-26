@@ -643,6 +643,8 @@ ul.hundekrone-usps li img {
 img.hundekrone-category-header {
     margin-bottom: 15px;
     margin-top: 5px;
+    width: 100%;
+    height: auto;
 }
 
 .category-description.btm {
