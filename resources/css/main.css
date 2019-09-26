@@ -94,7 +94,7 @@ header#page-header .navbar{
 div#page-body {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 35px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
 }
 
 .widget-inner.bg-appearance, .widget-inner.bg-appearance * {
