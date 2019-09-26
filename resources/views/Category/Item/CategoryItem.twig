@@ -69,7 +69,23 @@
                 {% endif %}
 
 
-                    <h1 class="h2 category-title">{{ category.details[0].name }}</h1>
+        <div class="row">
+
+            {% if category is defined and ceresConfig.header.showNavBars in ["side", "both"] %}
+                <div class="col-3 hidden-md-down">
+                    <div class="sidebar-categories">
+                        <div class="category-title">{{ trans("Ceres::Template.itemCategories") }}</div>
+                        {{ include('Ceres::PageDesign.Partials.Header.SideNavigation.twig') }}
+                    </div>
+
+                    {{ LayoutContainer.show("Ceres::CategoryItem.SideNavBarBottom") }}
+                </div>
+
+            {% endif %}
+
+            <div class="col-12 col-lg-{% if category is defined and ceresConfig.header.showNavBars in ["side", "both"] %}9{% else %}12{% endif %}">
+
+                                <h1 class="h2 category-title">{{ category.details[0].name }}</h1>
                     {% if ceresConfig.item.showCategoryDescriptionTop in ["description1", "both"] and category.details[0].description | trim is not empty %}
                         <div class="category-description mb-3">{{ category.details[0].description | raw }}</div>
                     {% endif %}
@@ -123,21 +139,7 @@
             </div>
         {% endif %}
 
-        <div class="row">
-
-            {% if category is defined and ceresConfig.header.showNavBars in ["side", "both"] %}
-                <div class="col-3 hidden-md-down">
-                    <div class="sidebar-categories">
-                        <div class="category-title">{{ trans("Ceres::Template.itemCategories") }}</div>
-                        {{ include('Ceres::PageDesign.Partials.Header.SideNavigation.twig') }}
-                    </div>
-
-                    {{ LayoutContainer.show("Ceres::CategoryItem.SideNavBarBottom") }}
-                </div>
-
-            {% endif %}
-
-            <div class="col-12 col-lg-{% if category is defined and ceresConfig.header.showNavBars in ["side", "both"] %}9{% else %}12{% endif %}">
+        
                 {% if itemList is not empty %}
 	                <ul class="product-list row grid">
 	                    {% for item in itemList %}
