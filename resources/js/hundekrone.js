@@ -38,6 +38,10 @@ $(document).ready(function(){
 			urlcase="feebee-dogwear";
 		}
 
+		if(urlcase=="bozita"){
+			urlcase="bozita-hundefutter";
+		}
+
 		var buildurl = "https://www.hundekrone.de/marken/"+urlcase;
 		$(".producertag.h6.producer.text-muted").html("<a href='"+buildurl+"' title='"+saveword+"'>"+saveword+"</a>");
 	}
