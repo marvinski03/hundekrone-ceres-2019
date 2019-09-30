@@ -23,4 +23,14 @@ $(document).ready(function(){
 		switchSearch();
 	});
 
+
+	/** add brand links **/
+
+	var saveword = $(".producertag.h6.producer.text-muted").text();
+	if(saveword!="Hundekrone"){
+		var urlcase = saveword.toLowerCase().replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '-').replace('--','-');
+		var buildurl = "https://www.hundekrone.de/marken/"+urlcase;
+		$(".producertag.h6.producer.text-muted").html("<a href='"+buildurl+"' title='"+saveword+"'>"+saveword+"</a>");
+	}
+
 });
