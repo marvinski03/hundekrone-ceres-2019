@@ -29,6 +29,15 @@ $(document).ready(function(){
 	var saveword = $(".producertag.h6.producer.text-muted").text();
 	if(saveword!="Hundekrone"){
 		var urlcase = saveword.toLowerCase().replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '-').replace('--','-');
+
+		if(urlcase.charAt(urlcase.length - 1) == "-"){
+			urlcase = urlcase.slice(0,-1);
+		}
+
+		if(urlcase=="feebee"){
+			urlcase="feebee-dogwear";
+		}
+
 		var buildurl = "https://www.hundekrone.de/marken/"+urlcase;
 		$(".producertag.h6.producer.text-muted").html("<a href='"+buildurl+"' title='"+saveword+"'>"+saveword+"</a>");
 	}
