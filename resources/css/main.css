@@ -325,8 +325,17 @@ span.gutschein-big {
 
 @media (max-width: 575.98px){
     .page-home .widget.widget-image-box {
-        min-height: 18rem !important;
+        min-height: 0px !important;
     }
+
+
+    .widget.widget-image-box>img.img-cover {
+        min-width: 100%;
+        height: auto !important;
+        -o-object-fit: cover;
+    }
+
+
 }
 
 
