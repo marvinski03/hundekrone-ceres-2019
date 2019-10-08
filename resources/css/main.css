@@ -323,6 +323,12 @@ span.gutschein-big {
     }
 }
 
+@media (max-width: 575.98px){
+    .page-home .widget.widget-image-box {
+        min-height: 20rem !important;
+    }
+}
+
 
 
 /** SERVICE BOX **/
