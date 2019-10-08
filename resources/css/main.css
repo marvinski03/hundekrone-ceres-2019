@@ -339,7 +339,7 @@ span.gutschein-big {
         min-height: 118px !important;
     }
 
-    div#instafeed a {
+   .page-home  div#instafeed a {
         width: 33.33%;
         display: block;
         float: left;
@@ -348,7 +348,7 @@ span.gutschein-big {
         padding-bottom: 30%;
     }
 
-    div#instafeed a img {
+    .page-home div#instafeed a img {
         border: 5px solid white;
     }
 
