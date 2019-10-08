@@ -329,10 +329,14 @@ span.gutschein-big {
     }
 
 
-    .widget.widget-image-box>img.img-cover {
+    .page-home .widget.widget-image-box>img.img-cover {
         min-width: 100%;
         height: auto !important;
         -o-object-fit: cover;
+    }
+
+    .page-home .widget-image-carousel.widget-proportional {
+        min-height: 118px !important;
     }
 
 
