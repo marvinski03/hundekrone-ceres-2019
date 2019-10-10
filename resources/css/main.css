@@ -328,6 +328,11 @@ span.gutschein-big {
         min-height: 0px !important;
     }
 
+    .page-home .auto-verh {
+        min-height: 200px !important;
+        height: 200px !important;
+    }
+
 
     .page-home .widget.widget-image-box>img.img-cover {
         min-width: 100%;
