@@ -701,3 +701,10 @@ img.hundekrone-category-header {
 }
 
 
+
+
+.page-category .hide-front, .page-singleitem .hide-front {
+    display: block !important;
+}
+
+
