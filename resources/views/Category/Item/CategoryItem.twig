@@ -207,4 +207,15 @@
     {% if currentPage + 1 <= pageMax %}
         <link rel="next" href="{{ canonicalUrl ~ queryString({'page': currentPage + 1}) }}" />
     {% endif %}
+
+    {% if category is not defined %}
+      {% embed getPartial('page-metadata') %}
+              {% block title      trans("Ceres::Template.itemSearchResults") ~ " " ~ searchString %}
+              {% block robots     ceresConfig.meta.robotsSearchResult %}
+      {% endembed %}
+    {% else %}
+      {% embed getPartial('page-metadata') %}
+      {% endembed %}
+    {% endif %}
 {% endblock %}
+
