@@ -207,11 +207,4 @@
     {% if currentPage + 1 <= pageMax %}
         <link rel="next" href="{{ canonicalUrl ~ queryString({'page': currentPage + 1}) }}" />
     {% endif %}
-
-    {% embed getPartial('page-metadata') %}
-        {% if category is not defined %}
-            {% block title      trans("Ceres::Template.itemSearchResults") ~ " " ~ searchString %}
-            {% block robots     ceresConfig.meta.robotsSearchResult %}
-        {% endif %}
-    {% endembed %}
 {% endblock %}
