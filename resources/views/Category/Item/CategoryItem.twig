@@ -42,7 +42,9 @@
 				{% for childCategory in children %}
 					{% if childCategory.details[0].imagePath is not empty %}
 
-                        {% set completeUrl = urlLanguageCode ~ request.getRequestUri() ~ "/" ~ childCategory.details[0].nameUrl %}
+
+
+                        {% set completeUrl = urlLanguageCode ~ "/" ~ childCategory.details[0].nameUrl %}
 
                         {% set twig_content_variable= 'Testing to replace content'%}
                         {% set replace_value_var= '//' %}
