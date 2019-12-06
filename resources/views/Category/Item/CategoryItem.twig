@@ -44,7 +44,7 @@
 
 
 
-                        {% set completeUrl = urlLanguageCode ~ request.getRequestUri()|replace({"?" : ""}) ~ "/" ~ childCategory.details[0].nameUrl %}
+                        {% set completeUrl = urlLanguageCode ~ request.getRequestUri()|split('?')[0] ~ "/" ~ childCategory.details[0].nameUrl %}
 
                         {% set twig_content_variable= 'Testing to replace content'%}
                         {% set replace_value_var= '//' %}
